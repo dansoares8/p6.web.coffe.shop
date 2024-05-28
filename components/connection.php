@@ -7,10 +7,10 @@ $db_password = '';
 $conn = new PDO($db_name, $db_user, $db_password);
 
 if($conn){
-    
+    echo " connected";
 }
 function unique_id(){
-    $chars = '';
+    $chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMOPQRSTUVWXYZ';
     $charLength = strLen($chars);
     $randomString = '';
 
