@@ -48,7 +48,7 @@ ul{
 sup{
     position: absolute;
     top: 15%;
-    background: #000;
+    background: #fff;
     color: #000;
     border-radius: 50%;
     width: 20px;
@@ -223,4 +223,6 @@ header.scrolled{
 }
 .header .user-box.active{
     transform: scale(1.0);
+    transition: .2s linear;
+
 }
